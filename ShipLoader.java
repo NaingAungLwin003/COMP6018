@@ -4,11 +4,11 @@ import java.io.*;
 import java.util.*;
 
 /**
- * The ShipLoader class provides functionality for loading ship configurations
- * from an external file. Each ship is represented by a comma-separated list of
+ * The ShipLoader class provides functionality for loading ship configurations from an external file.
+ * Each ship is represented by a comma-separated list of
  * coordinates (e.g., A1,A2,A3). The class ensures all positions are valid and non-overlapping.
  * 
- * This utility supports the FR7 feature (load ships from file).
+ * This class also implements the Load from File feature.
  * 
  * @author Naing Aung Lwin(19337512)
  */

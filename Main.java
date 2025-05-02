@@ -1,9 +1,9 @@
 package battleShips;
 
 /**
- * The Main class serves as the entry point for the Battleships application.
- * It initializes the GameModel and GameController, and launches either the
- * CLI or GUI version of the game depending on the useGUI flag.
+ * The Main class acts as the entry point for the Battleships application.
+ * This class initializes the GameModel and GameController, and launches either the
+ * CLI or GUI version of the game depending on the user request.
  * 
  * This class demonstrates the integration of MVC architecture by coordinating
  * the model, view, and controller components during application startup.
@@ -15,7 +15,7 @@ public class Main {
         GameModel model = new GameModel();
         GameController controller = new GameController(model);
 
-        boolean useGUI = false; // Set to false to launch CLI version
+        boolean useGUI = true; // Set to false to launch CLI version
 
         if (useGUI) {
             // Launch GUI on the Event Dispatch Thread (EDT)

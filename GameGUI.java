@@ -29,7 +29,7 @@ public class GameGUI extends JFrame implements Observer {
         this.model = model;
         this.controller = controller;
 
-        model.addObserver(this); // Subscribe to model updates
+        model.addObserver(this); // perform model updates
 
         setTitle("Battleships GUI");
         setSize(600, 650);

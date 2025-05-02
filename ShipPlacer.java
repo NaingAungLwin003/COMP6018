@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * The ShipPlacer class provides logic for placing ships randomly on the game board.
  * It ensures that ships do not overlap and that they fit within board boundaries.
- * This class supports the default ship placement mode.
+ * This class implements the default ship placement.
  * 
  * @author Naing Aung Lwin(19337512)
  */

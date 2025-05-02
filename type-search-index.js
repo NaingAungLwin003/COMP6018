@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"battleShips","l":"GameController"},{"p":"battleShips","l":"GameGUI"},{"p":"battleShips","l":"GameModel"},{"p":"battleShips","l":"Main"},{"p":"battleShips","l":"Observable"},{"p":"battleShips","l":"Observer"}];updateSearchResults();

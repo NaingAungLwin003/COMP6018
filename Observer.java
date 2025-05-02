@@ -1,11 +1,11 @@
 package battleShips;
 
 /**
- * The Observer interface defines the contract for any class that wants to be notified
+ * The Observer interface acts as a contract for any class that wants to be notified
  * of changes in an Observable. Classes like GameGUI implement this interface to react
  * to updates from the GameModel.
  * 
- * It is part of a custom Observer pattern implementation in the Battleships project.
+ * It is part of a custom Observer pattern implementation for this application.
  * 
  * @author Naing Aung Lwin(19337512)
  */

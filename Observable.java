@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * The Observable class is a custom implementation of the Observer design pattern.
- * It allows observers (typically Views like GameGUI) to register and receive
+ * This class allows observers (Views like GameGUI) to register and receive
  * updates whenever the model's state changes. This enables decoupled communication
  * between the model and view components in the application.
  * 

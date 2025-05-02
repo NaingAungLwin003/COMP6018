@@ -5,10 +5,10 @@ import java.util.*;
 
 /**
  * The GameModel class maintains the state and logic of the Battleships game.
- * It manages the board, tracks ship positions, handles attacks, and supports both
- * random and file-based ship placement. This class represents the 'Model' in the
- * MVC architecture and extends Observable to notify views (like GameGUI) when the
- * game state changes.
+ * GameModel manages the board, tracks ship positions, handles attacks, and supports both
+ * random and file-based ship placement. 
+ * This class represents the 'Model' in the MVC architecture and extends Observable to notify views (like GameGUI) 
+ * when the game state changes.
  * 
  * Invariants:
  * - The board is always a 10x10 grid.
@@ -99,7 +99,7 @@ public class GameModel extends Observable {
     }
 
     /**
-     * @return the current state of the board (2D char array)
+     * @return the current state of the board
      */
     public char[][] getBoard() {
         return board;
